@@ -19,6 +19,6 @@ public class MovieController {
     public String createMovie(@RequestBody String movie) {
         // Mock behavior: Simply print the movie data and return a success message
         System.out.println("Movie received: " + movie);
-        return "Movie added successfully!" +movie;
+        return "Movie added successfully!";
     }
 }
