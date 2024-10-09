@@ -22,6 +22,10 @@ public class Movie {
         this.description=description;
     }
 
+    public Movie(String string, String string2) {
+        //TODO Auto-generated constructor stub
+    }
+
     public Long getId() {
         return id;
     }
